@@ -1,3 +1,9 @@
+Fork of simple-http-server with added functionality of running with -r flag. This allows you to redirect
+to a different domain (than localhost) when you get a 404. This makes it easy to play around with an
+existing website by pulling down the file you want to change, and depending on that website for all
+other resources.
+
+-----------------
 # Simple HTTP Web Server #
 
 A simple web server, built in javascript, distributed as an NPM package, for node.js.
